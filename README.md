@@ -1,5 +1,5 @@
 # Wintron
-
+## Touch 
 Firmware for the Trekstor Wintron 7 Touch.
 Needs to be placed in /lib/firmware.
 
@@ -10,4 +10,7 @@ We fixed that by adding
 ```
 x = (int) (x*114) / 100;
 ```
-in line 351 of the Silead GSLx680 driver source.
+in line 351 of the Silead GSLx680 driver source. This is not necessary to do so, if xinput_calibrator works.
+
+## WiFi
+See http://janis.dogcraft.de/wintron
